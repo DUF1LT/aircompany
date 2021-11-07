@@ -26,15 +26,15 @@ namespace Aircompany
         public static void Main(string[] args)
         {
             Airport airport = new Airport(planes);
-            Airport militaryAirport = new Airport(airport.GetMilitaryPlanes());
-            Airport passengerAirport = new Airport(airport.GetPassengersPlanes());
+            Airport militaryAirport = new Airport(airport.MilitaryPlanes);
+            Airport passengerAirport = new Airport(airport.PassengersPlanes);
             Console.WriteLine(militaryAirport
                               .SortByMaxDistance()
                               .ToString());
             Console.WriteLine(passengerAirport
                               .SortByMaxSpeed()
                               .ToString());
-            Console.WriteLine(passengerAirport.GetPassengerPlaneWithMaxPassengersCapacity());           
+            Console.WriteLine(passengerAirport.PassengerPlaneWithMaxPassengersCapacity);           
         }
     }
 }

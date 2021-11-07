@@ -33,23 +33,23 @@ namespace AircompanyTests.Tests
         public void AirportHasTransportMilitaryPlane()
         {
             Airport airport = new Airport(planes);
-            List<MilitaryPlane> transportMilitaryPlanes = airport.GetTransportMilitaryPlanes().ToList();
-            Assert.IsNotNull(transportMilitaryPlanes.Find(p => p.PlaneTypeIs() == MilitaryType.TRANSPORT));
+            List<MilitaryPlane> transportMilitaryPlanes = airport.TransportMilitaryPlanes.ToList();
+            Assert.IsNotNull(transportMilitaryPlanes.Find(p => p.Type == MilitaryType.TRANSPORT));
         }
 
         [Test]
         public void FindPassengerPlaneWithMaxCapacity()
         {
             Airport airport = new Airport(planes);
-            Assert.AreEqual(airport.GetPassengerPlaneWithMaxPassengersCapacity(), planeWithMaxPassengerCapacity);
+            Assert.AreEqual(airport.PassengerPlaneWithMaxPassengersCapacity, planeWithMaxPassengerCapacity);
         }
 
         [Test]
         public void SubsequentPlanesHaveHigherMaxLoadCapacity()
         {
             Airport airport = new Airport(planes);
-            List<Plane> planesSortedByMaxLoadCapacity = airport.SortByMaxLoadCapacity().GetPlanes().ToList();
-            List<Plane> expectedSort = airport.Planes.OrderBy(p => p.MAXLoadCapacity()).ToList();
+            List<Plane> planesSortedByMaxLoadCapacity = airport.SortByMaxLoadCapacity().Planes.ToList();
+            List<Plane> expectedSort = airport.Planes.OrderBy(p => p.MaxLoadCapacity).ToList();
             Assert.IsTrue(expectedSort.SequenceEqual(planesSortedByMaxLoadCapacity));
         }
     }

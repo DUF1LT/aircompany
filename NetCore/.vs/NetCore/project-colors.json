@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3cec0791-65aa-490b-8af3-60a7ce69bf28": {
+      "ProjectGuid": "3cec0791-65aa-490b-8af3-60a7ce69bf28",
+      "DisplayName": "AirCompany",
+      "ColorIndex": 0
+    },
+    "32dd0430-0cd7-4648-9fe1-6d98af28ecfe": {
+      "ProjectGuid": "32dd0430-0cd7-4648-9fe1-6d98af28ecfe",
+      "DisplayName": "AirCompanyTests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
