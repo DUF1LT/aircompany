@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<command-line><![CDATA["D:\BSTU stuff\5 семестр 3 курс\EPAM\GitLab\CleanCode\aircompany\NetCore\AirCompanyTest\bin\Debug\net5.0\testhost.dll" --port 57089 --endpoint 127.0.0.1:057089 --role client --parentprocessid 12952 --telemetryoptedin true]]></command-line>

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Aca/pXV2y4356D6uLIuvNs5Itcm0je9T2Nsq9zCNy+JTYRvF/Ss5lrIdmSfC+liwQnjAQ4PgNyy8meuYNv4AcQ==",
+  "dgSpecHash": "3BXSOU2PxybP983ZZ5I2F3ZCLe9Oc5xWu+ZZbrEttLqGUXOylw4BkGUhEX7nMWylbpMqow5b1vxL5RopoU373g==",
   "success": true,
   "projectFilePath": "D:\\BSTU stuff\\5 семестр 3 курс\\EPAM\\GitLab\\CleanCode\\aircompany\\NetCore\\NetCore\\AirCompany.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Vadim\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\Vadim\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512"
+    "C:\\Users\\Vadim\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
+    "C:\\Users\\Vadim\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
   ],
   "logs": []
 }
